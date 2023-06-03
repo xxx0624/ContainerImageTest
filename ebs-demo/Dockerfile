@@ -1,5 +1,5 @@
-FROM scratch
+FROM busybox
 
-COPY ebs-demo-image /
+COPY ebs-demo-binary /
 
-CMD ["/ebs-demo"]
+CMD ["/ebs-demo-binary"]
